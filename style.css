@@ -103,6 +103,7 @@ img.logo{
     overflow: hidden;
 }
 .preco{
+    display: flex;
     align-items: center;
     width: 80%;
     height: 100%;

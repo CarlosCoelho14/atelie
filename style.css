@@ -256,7 +256,7 @@ h1.caixat{
 	background-color: white;
 }
 .cadcolaborador{
-	background-image: url("../imagem/cadcolaborador.jpg");
+	background-image: url("imagem/cadcolaborador.jpg");
 	background-size: cover;
 	background-position:center;
 	height:400px;
@@ -292,7 +292,7 @@ h1.caixat{
 	color:white;
 }
 .altcolaborador{
-	background-image: url("../imagem/altcolaborador.jpg");
+	background-image: url("imagem/altcolaborador.jpg");
 	background-size: cover;
 	background-position:center;
 	height:400px;
@@ -328,7 +328,7 @@ h1.caixat{
 	color:white;
 }
 .cadcliente{
-	background-image: url("../imagem/cadcliente.jpg");
+	background-image: url("imagem/cadcliente.jpg");
 	background-size: cover;
 	background-position:center;
 	height:400px;
@@ -364,7 +364,7 @@ h1.caixat{
 	color:white;
 }
 .altcliente{
-	background-image: url("../imagem/altcliente.jpg");
+	background-image: url("imagem/altcliente.jpg");
 	background-size: cover;
 	background-position:center;
 	height:400px;
@@ -468,7 +468,7 @@ h1.caixat{
     font-family: 'Quicksand', sans-serif;
 }
 .cadcolaborador{
-	background-image: url("../imagem/cadcolaborador.jpg");
+	background-image: url("imagem/cadcolaborador.jpg");
 	background-size: cover;
 	background-position:center;
 	height:300px;
@@ -480,7 +480,7 @@ h1.caixat{
 	border-radius: 25px;
 }
 .altcolaborador{
-	background-image: url("../imagem/altcolaborador.jpg");
+	background-image: url("imagem/altcolaborador.jpg");
 	background-size: cover;
 	background-position:center;
 	height:300px;
@@ -492,7 +492,7 @@ h1.caixat{
 	border-radius: 25px;
 }
 .cadcliente{
-	background-image: url("../imagem/cadcliente.jpg");
+	background-image: url("imagem/cadcliente.jpg");
 	background-size: cover;
 	background-position:center;
 	height:300px;
@@ -504,7 +504,7 @@ h1.caixat{
 	border-radius: 25px;
 }
 .altcliente{
-	background-image: url("../imagem/altcliente.jpg");
+	background-image: url("imagem/altcliente.jpg");
 	background-size: cover;
 	background-position:center;
 	height:300px;

@@ -19,6 +19,8 @@ a{
     display: flex;
     background-repeat: no-repeat;
     margin-bottom: 100px;
+    display: flex;
+    align-items: start;
 }
 .navbarContainer{
     display: flex;
@@ -68,11 +70,29 @@ a{
 img.logo{
     margin-top: 90px;
 }
+a.selec{
+    box-shadow: inset 0px -1px 0px 0px rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    font-size: 1.1vw;
+    cursor: default;
+}
 .corpo{
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    overflow: hidden;
+}
+.corpocad{
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-around;f
+    justify-content: space-around;
     gap: 50px;
     flex-wrap: wrap;
     align-items: center;
@@ -93,10 +113,25 @@ img.logo{
     box-shadow: 0px 10px 10px 0px rgba(112,112,112,0.3);
     -webkit-box-shadow: 0px 10px 10px 0px rgba(112,112,112,0.3);
     -moz-box-shadow: 0px 10px 10px 0px rgba(112,112,112,0.3);
-    color: #5a5a5a;
+    color: #ff3737;
     font-size: 3vw;
     font-family: 'Quicksand', sans-serif;
     position: relative;
+}
+.blocotitulo{
+    width: 100%;
+    height: 26%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.blocoimagem{
+    width: 100%;
+    height: 74%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
 }
 .preco{
     width: 60%;
@@ -131,13 +166,14 @@ h1.titulo{
 }
 .espaco{
     margin-top: -90px;
-    width: 100%;
-    height: 1050px;
+    width: auto;
+    height: 110%;
     background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.2) 100%), url("imagem/art.jpg");
     background-size: 100%;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    gap: 650px;
+    justify-content: space-between;
 }
 ion-icon {
     font-size: 128px;
@@ -148,7 +184,7 @@ ion-icon {
     width: 100%;
     height: 400px;
     background: linear-gradient(0deg, rgba(255,16,16,1) 0%, rgba(205,55,55,1) 80%);
-    margin-top: 200px;
+    margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -169,17 +205,34 @@ ion-icon {
     width: 100%;
     height: 60%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .caixa{
-    width: 30%;
+    width: 15%;
     height: 100%;
     align-items: center;
     justify-content: center;
     display: flex;
     flex-direction: column;
     font-size: 1.75vw;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+}
+.caixat{
+    width: 45%;
+    height: 100%;
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+    font-size: 1vw;
+    text-align: justify;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+}
+h1.caixat{
+    font-size: 1.3vw;
+    text-align: start;
     color: #ffffff;
     font-family: 'Quicksand', sans-serif;
 }
@@ -194,3 +247,272 @@ ion-icon {
     align-items: center;
 }
 
+.container-cad{
+	display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    margin-bottom: 100px;
+	background-color: white;
+}
+.cadcolaborador{
+	background-image: url("../imagem/cadcolaborador.jpg");
+	background-size: cover;
+	background-position:center;
+	height:400px;
+	display: flex;
+	padding: 20px;
+	width: 40%;
+	text-decoration: none;
+	transition-duration: 0.5s;
+	border-radius: 25px;
+}
+.cadcolaborador p{
+	font-size: 2.7vw;
+	font-family: 'Quicksand', sans-serif;
+	text-align: left;
+	padding:10px;
+	border-radius: 15px;
+	color: white;
+	background-color: rgba(205,55,55,0.7);
+}
+.cadcolaborador a{
+	color:rgba(0, 0, 0, 0);
+	overflow: hidden;
+	transition-duration: 0.5s;
+	font-size: 70px;
+	font-family: 'Quicksand', sans-serif;
+	text-align: justify;
+}
+.cadcolaborador:hover{
+	box-shadow: inset 0px 700px rgba(0,0,0,0.6);
+    transform: scale(1.1);
+}
+.cadcolaborador a:hover{
+	color:white;
+}
+.altcolaborador{
+	background-image: url("../imagem/altcolaborador.jpg");
+	background-size: cover;
+	background-position:center;
+	height:400px;
+	display: flex;
+	padding: 20px;
+	width: 40%;
+	text-decoration: none;
+	transition-duration: 0.5s;
+	border-radius: 25px;
+}
+.altcolaborador p{
+	font-size: 2.7vw;
+	font-family: 'Quicksand', sans-serif;
+	text-align: left;
+	padding:10px;
+	border-radius: 15px;
+	color: white;
+	background-color: rgba(205,55,55,0.7);
+}
+.altcolaborador a{
+	color:rgba(0, 0, 0, 0);
+	overflow: hidden;
+	transition-duration: 0.5s;
+	font-size: 70px;
+	font-family: 'Quicksand', sans-serif;
+	text-align: justify;
+}
+.altcolaborador:hover{
+	box-shadow: inset 0px 700px rgba(0,0,0,0.6);
+    transform: scale(1.1);
+}
+.altcolaborador a:hover{
+	color:white;
+}
+.cadcliente{
+	background-image: url("../imagem/cadcliente.jpg");
+	background-size: cover;
+	background-position:center;
+	height:400px;
+	display: flex;
+	padding: 20px;
+	width: 40%;
+	text-decoration: none;
+	transition-duration: 0.5s;
+	border-radius: 25px;
+}
+.cadcliente p{
+	font-size: 2.7vw;
+	font-family: 'Quicksand', sans-serif;
+	text-align: left;
+	padding:10px;
+	border-radius: 15px;
+	color: white;
+	background-color: rgba(205,55,55,0.7);
+}
+.cadcliente a{
+	color:rgba(0, 0, 0, 0);
+	overflow: hidden;
+	transition-duration: 0.5s;
+	font-size: 70px;
+	font-family: 'Quicksand', sans-serif;
+	text-align: justify;
+}
+.cadcliente:hover{
+	box-shadow: inset 0px 700px rgba(0,0,0,0.6);
+    transform: scale(1.1);
+}
+.cadcliente a:hover{
+	color:white;
+}
+.altcliente{
+	background-image: url("../imagem/altcliente.jpg");
+	background-size: cover;
+	background-position:center;
+	height:400px;
+	display: flex;
+	padding: 20px;
+	width: 40%;
+	text-decoration: none;
+	transition-duration: 0.5s;
+	border-radius: 25px;
+}
+.altcliente p{
+	font-size: 2.7vw;
+	font-family: 'Quicksand', sans-serif;
+	text-align: left;
+	padding:10px;
+	border-radius: 15px;
+	color: white;
+	background-color: rgba(205,55,55,0.7);
+}
+.altcliente a{
+	color:rgba(0, 0, 0, 0);
+	overflow: hidden;
+	transition-duration: 0.5s;
+	font-size: 70px;
+	font-family: 'Quicksand', sans-serif;
+	text-align: justify;
+}
+.altcliente:hover{
+	box-shadow: inset 0px 700px rgba(0,0,0,0.6);
+    transform: scale(1.1);
+}
+.altcliente a:hover{
+	color:white;
+}
+
+@media screen and (max-width: 1280px){
+
+.corpo{
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    overflow: hidden;
+}
+.espaco{
+    margin-top: -90px;
+    width: 100%;
+    height: 70%;
+    background: radial-gradient(circle, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.2) 100%), url("imagem/art.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.navbarlinks{
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+.navbarlinks a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 1.5vw;
+    font-family: 'Quicksand', sans-serif;
+    width: 100%;
+    height: 100%;
+    gap:1vw;
+}
+.navbarlinks a:hover{
+    box-shadow: inset 0px -1px 0px 0px rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    font-size: 1.6vw;
+    transition-duration: 0.5s;
+}
+.caixat{
+    width: 45%;
+    height: 100%;
+    justify-content: start;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2vw;
+    text-align: justify;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+}
+h1.caixat{
+    font-size: 1.5vw;
+    text-align: start;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+}
+.cadcolaborador{
+	background-image: url("../imagem/cadcolaborador.jpg");
+	background-size: cover;
+	background-position:center;
+	height:300px;
+	display: flex;
+	padding: 20px;
+	width: 40%;
+	text-decoration: none;
+	transition-duration: 0.5s;
+	border-radius: 25px;
+}
+.altcolaborador{
+	background-image: url("../imagem/altcolaborador.jpg");
+	background-size: cover;
+	background-position:center;
+	height:300px;
+	display: flex;
+	padding: 20px;
+	width: 40%;
+	text-decoration: none;
+	transition-duration: 0.5s;
+	border-radius: 25px;
+}
+.cadcliente{
+	background-image: url("../imagem/cadcliente.jpg");
+	background-size: cover;
+	background-position:center;
+	height:300px;
+	display: flex;
+	padding: 20px;
+	width: 40%;
+	text-decoration: none;
+	transition-duration: 0.5s;
+	border-radius: 25px;
+}
+.altcliente{
+	background-image: url("../imagem/altcliente.jpg");
+	background-size: cover;
+	background-position:center;
+	height:300px;
+	display: flex;
+	padding: 20px;
+	width: 40%;
+	text-decoration: none;
+	transition-duration: 0.5s;
+	border-radius: 25px;
+}
+}

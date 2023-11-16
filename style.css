@@ -421,7 +421,7 @@ h1.caixat{
 	padding:10px;
 	border-radius: 15px;
 	color: rgb(210, 210, 210);
-    transition-duration: 5s ;
+    transition-duration: 0.5s ;
 }
 .cadpedido p:hover{
 	font-size: 2.7vw;
@@ -434,6 +434,29 @@ h1.caixat{
 .cadpedido:hover{
 	box-shadow: inset 0px 700px rgba(0,0,0,0.6);
     transform: scale(1.1);
+}
+.cadrelato{
+	height:70px;
+	display: flex;
+	padding: 20px;
+	width: 100px;
+	text-decoration: none;
+	transition-duration: 0.5s;
+	border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.cadrelato p{
+	font-size: 2.7vw;
+	font-family: 'Quicksand', sans-serif;
+	text-align: left;
+	padding:10px;
+	border-radius: 15px;
+	color: #ff3737;
+    transition-duration: 0.5s ;
+}
+.cadrelato p:hover{
+	scale: 1.2;
 }
 
 @media screen and (max-width: 1280px){
